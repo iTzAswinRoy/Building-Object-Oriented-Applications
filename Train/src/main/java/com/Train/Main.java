@@ -9,7 +9,8 @@ public class Main {
         System.out.println("-A passenger can book a ticket up to 8 seats and only 2 waiting list.\n");
 
         TicketSystem ticketSystem = new TicketSystem();
-        while (true){
+
+        while (true) {
 
             System.out.println("1. Book \n2. Cancel \n3. View ticket");
 
