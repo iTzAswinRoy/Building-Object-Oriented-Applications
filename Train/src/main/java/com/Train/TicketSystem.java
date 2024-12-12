@@ -10,9 +10,7 @@ public class TicketSystem {
     protected Map<Integer, Ticket> waitingList = new HashMap<>();
     protected Map<Integer, Ticket> ticketCancelled = new HashMap<>();
 
-
     int[] seatsAvailability = new int[5];
-
     int waitingListAdded = 0;
 
     public TicketSystem() {
