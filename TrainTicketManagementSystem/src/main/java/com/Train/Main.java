@@ -12,7 +12,7 @@ public class Main {
 
         while (true) {
 
-            System.out.println("1. Book \n2. Cancel \n3. View ticket");
+            System.out.println("1. Book \n2. Cancel \n3. View ticket \n4. Exit");
 
             System.out.println("Enter an option");
             Scanner in = new Scanner(System.in);
@@ -48,6 +48,11 @@ public class Main {
                 case 3 -> {
                     PrintChart printChart = new PrintChart(ticketSystem);
                     printChart.execute();
+                }
+
+                case 4 -> {
+                    System.out.println("Exiting....");
+                    return;
                 }
 
                 default -> {
