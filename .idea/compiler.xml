@@ -7,13 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LibraryManagementSystem" />
+        <module name="TrainTicketManagementSystem" />
         <module name="BankApplication" />
         <module name="RailwayReservationSystem" />
         <module name="Temp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="TrainTicketManagementSystem" target="22" />
-    </bytecodeTargetLevel>
   </component>
 </project>
