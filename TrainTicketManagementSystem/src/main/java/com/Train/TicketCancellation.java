@@ -1,6 +1,5 @@
 package com.Train;
 
-
 import java.util.ArrayList;
 
 public class TicketCancellation {

@@ -1,6 +1,5 @@
 package com.Train;
 
-
 public class Ticket {
 
     static int pnrGenerator = 1;

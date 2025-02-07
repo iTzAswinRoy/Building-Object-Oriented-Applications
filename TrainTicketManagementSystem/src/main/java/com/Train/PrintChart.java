@@ -1,6 +1,5 @@
 package com.Train;
 
-
 import java.util.Arrays;
 
 public class PrintChart {

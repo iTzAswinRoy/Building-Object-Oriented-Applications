@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("This is a train ticket booking application:");
-        System.out.println("-A train travels a distance from 'A' to 'E'. ");
-        System.out.println("-A passenger can book a ticket up to 8 seats and only 2 waiting list.\n");
+        System.out.println("- A train travels a distance from 'A' to 'E'. ");
+        System.out.println("- A passenger can book a ticket up to 8 seats and only 2 waiting list.\n");
 
         TicketSystem ticketSystem = new TicketSystem();
 
@@ -20,7 +20,7 @@ public class Main {
             int option = in.nextInt();
 
             switch (option) {
-                case 1 ->{
+                case 1 -> {
                     System.out.println("enter the source:");
                     char source = in.next().toUpperCase().charAt(0);
 

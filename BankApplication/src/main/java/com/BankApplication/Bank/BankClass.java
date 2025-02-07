@@ -1,7 +1,5 @@
 package com.BankApplication.Bank;
 
-
-
 import com.BankApplication.Bank.Account.AccountClass;
 
 import java.util.HashMap;
