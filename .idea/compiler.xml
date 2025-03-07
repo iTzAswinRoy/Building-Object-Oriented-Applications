@@ -11,6 +11,7 @@
         <module name="BankApplication" />
         <module name="RailwayReservationSystem" />
         <module name="Temp" />
+        <module name="AssetManagementSystem" />
       </profile>
     </annotationProcessing>
   </component>
